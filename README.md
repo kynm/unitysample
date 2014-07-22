@@ -1,18 +1,18 @@
-Tổng quan về unity 3D
-I. Giới thiệu về Unity3D
-Unity3D là phần mềm làm games trực tiếp theo thời gian thực, mà không cần render, cho phép người  design game có thể thiết kế InterfaceGraphic, map hay character … từ một phần mềm thứ 2 (thường là các phần mềm thiết kế đồ họa chuyên nghiệp như 3Dsmax, Blender, Maya, XSL,Cinema4D,Cheetah3D, Modo, Autodesk FBX, LightWave…) sau đó chỉ việc import nó vào trong Unity với định dạng của tập tin là *.FBX hay *.dae, *.3DS, *.dxf và *.obj, nhưng định dạng *.FBX hay được dùng vì được tối ưu hóa hơn, còn dùng các định dạng khác ngoài FBX thì phải cài phần mền thiết kế character tưng ứng thì mới dùng được (tức là dùng Maya có định dạng *.mb, *.ma thì muốn dùng được phải cài Maya)
+##Tổng quan về unity 3D
+##I. Giới thiệu về Unity3D
+ **Unity3D là phần mềm làm games trực tiếp theo thời gian thực, mà không cần render, cho phép người  design game có thể thiết kế InterfaceGraphic, map hay character … từ một phần mềm thứ 2 (thường là các phần mềm thiết kế đồ họa chuyên nghiệp như 3Dsmax, Blender, Maya, XSL,Cinema4D,Cheetah3D, Modo, Autodesk FBX, LightWave…) sau đó chỉ việc import nó vào trong Unity với định dạng của tập tin là *.FBX hay *.dae, *.3DS, *.dxf và *.obj, nhưng định dạng *.FBX hay được dùng vì được tối ưu hóa hơn, còn dùng các định dạng khác ngoài FBX thì phải cài phần mền thiết kế character tưng ứng thì mới dùng được (tức là dùng Maya có định dạng *.mb, *.ma thì muốn dùng được phải cài Maya)
 Ngoài ra khi bạn design được một game thì bạn có thể xuất được ra một file.exe và có thể chạy và chơi được trên PC khác.
 Một thế mạnh nữa của Unity là bạn có thể chạy demo game của bạn ngay trongkhi design, nó có hỗ trợ hai chế độ là Scene và Game, rất thuận tiện cho việc test thử các modulGame.
-	Hỗ trợ cả unity 2D và unity 3D
-Unity3D có 2 loại phiên bản, một cho người dùng free, và một phiên bản pro thì mất phí.
+**Hỗ trợ cả unity 2D và unity 3D
+**Unity3D có 2 loại phiên bản, một cho người dùng free, và một phiên bản pro thì mất phí.
 Khi tải Unity về các bạn cài đặt bình thường, đến khi kết thúc cài đặt nền các bạn chọn phiên bản Pro thì cần phải mua, còn nếu là người dùng free thì các bạn chọn kích  hoạt qua web, chỉ cần có kết nối mạng internet, sau đó chọn cài đặt thủ công và nhập mail, chọn free là bạn có thể sử dụng một bản Unity free.
-II download và cài đạt
+##II download và cài đạt
 Để cài đặt unity phiên bản mới nhất có thể vào trang chủ tại 
 http://unity3d.com/unity/download
 lựa chọn phiên bản phù hợp với hệ điều hành mac hoặc window sau đó cài đặt bình thường
 
 
-III, một số khái niệm cơ bản trong unity
+##III, một số khái niệm cơ bản trong unity
 1  Asset
 Đây là kho tài nguyên cho việc xây dựng game trong một project của Unity. Các tài nguyên này có thể là hình ảnh, âm thanh, hoặc một mô hình 3D có sẵn. Unity sẽ tham chiếu đến các tập tin chúng ta sẽ sử dụng để tạo ra các tài nguyên cho trò chơi. Đây là lý do tại sao trong bất kỳ thư mục chứa project sử dụng Unity thì tất cả các tập tin tài nguyên phải được lưu trữ trong một thư mục con tên là Assets. 
  
@@ -66,7 +66,7 @@ Cửa sổ Project thể hiện nội dung bên trong thư mục Assets của pr
 
 
 
-V. sample project
+##V. sample project
 Name: clone code flappy bird
 Mục đích: làm quen và hiểu các bước làm game unity 2d
 Hướng dẫn: học và làm theo tutorial 
